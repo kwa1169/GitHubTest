@@ -20,6 +20,7 @@
 		24C7A5831BE8242900E25967 /* GitHubTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7A5821BE8242900E25967 /* GitHubTestTests.m */; };
 		24C7A58E1BE8248200E25967 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7A58D1BE8248200E25967 /* AppController.m */; };
 		24C7A5901BE82A7000E25967 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24C7A58F1BE82A7000E25967 /* File.rtf */; };
+		24C7A5921BE82C7900E25967 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C7A5911BE82C7900E25967 /* alert.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		24C7A58C1BE8248200E25967 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		24C7A58D1BE8248200E25967 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		24C7A58F1BE82A7000E25967 /* File.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		24C7A5911BE82C7900E25967 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		24C7A55E1BE8242900E25967 /* GitHubTest */ = {
 			isa = PBXGroup;
 			children = (
+				24C7A5911BE82C7900E25967 /* alert.png */,
 				24C7A56A1BE8242900E25967 /* AppDelegate.h */,
 				24C7A56B1BE8242900E25967 /* AppDelegate.m */,
 				24C7A56D1BE8242900E25967 /* MainMenu.xib */,
@@ -240,6 +243,7 @@
 			files = (
 				24C7A5901BE82A7000E25967 /* File.rtf in Resources */,
 				24C7A5631BE8242900E25967 /* InfoPlist.strings in Resources */,
+				24C7A5921BE82C7900E25967 /* alert.png in Resources */,
 				24C7A5711BE8242900E25967 /* Images.xcassets in Resources */,
 				24C7A5691BE8242900E25967 /* Credits.rtf in Resources */,
 				24C7A56F1BE8242900E25967 /* MainMenu.xib in Resources */,

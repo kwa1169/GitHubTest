@@ -14,6 +14,7 @@
     
     NSAlert *myAlert = [[NSAlert alloc] init];
     myAlert.messageText = @"Hi";
+    [myAlert setIcon:[[NSImage alloc]initWithContentsOfFile:@"alert.png"]];
     [myAlert runModal];
 }
 @end
