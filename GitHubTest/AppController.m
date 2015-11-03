@@ -12,9 +12,21 @@
 
 - (IBAction)helloButton:(id)sender {
     
+
+    
     NSAlert *myAlert = [[NSAlert alloc] init];
     myAlert.messageText = @"Hi";
-    [myAlert setIcon:[[NSImage alloc]initWithContentsOfFile:@"alert.png"]];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString * filePath =[[NSString alloc] initWithString:
+                      [documentsDirectory stringByAppendingPathComponent:@"alert.png"]];
+    NSImage *alertIcon = [[NSImage alloc] initWithContentsOfFile:filePath];
+    myAlert.icon = alertIcon;
     [myAlert runModal];
+    
 }
+
+
+
+
 @end

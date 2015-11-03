@@ -122,7 +122,6 @@
 		24C7A55E1BE8242900E25967 /* GitHubTest */ = {
 			isa = PBXGroup;
 			children = (
-				24C7A5911BE82C7900E25967 /* alert.png */,
 				24C7A56A1BE8242900E25967 /* AppDelegate.h */,
 				24C7A56B1BE8242900E25967 /* AppDelegate.m */,
 				24C7A56D1BE8242900E25967 /* MainMenu.xib */,
@@ -138,6 +137,7 @@
 		24C7A55F1BE8242900E25967 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				24C7A5911BE82C7900E25967 /* alert.png */,
 				24C7A5601BE8242900E25967 /* GitHubTest-Info.plist */,
 				24C7A5611BE8242900E25967 /* InfoPlist.strings */,
 				24C7A5641BE8242900E25967 /* main.m */,
